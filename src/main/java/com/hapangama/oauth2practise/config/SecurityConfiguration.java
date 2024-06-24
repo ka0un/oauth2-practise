@@ -10,6 +10,8 @@ import org.springframework.web.client.RestTemplate;
 
 @Configuration
 public class SecurityConfiguration {
+
+    //followed doc : https://medium.com/fourscouts/spring-boot-oauth2-with-discord-as-provider-fbe81ba2a721
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http
